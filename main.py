@@ -28,9 +28,6 @@ while c=="y":
         result = cm*10
         print(cm,"cm -----> ",result,"mm")
     elif option == 4:
-        c=input("Are you want to go menu again y/n")
+        c=input("Are you want to go menu again y/n :- ")
         if c=='n':
-            option = 5
-
-    elif option == 5:
-        break
+            break
