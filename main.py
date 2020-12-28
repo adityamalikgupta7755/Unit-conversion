@@ -30,7 +30,6 @@ while True:
     :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
             """)
             slection = int(input("Select option :-"))
-
             if slection == 1:
                 while True:
                     print("""
@@ -49,7 +48,7 @@ while True:
                         w = 2
                     elif options == 3:
                         c=input("Are you want to go menu again y/n :- ")
-                        if c=='y':
+                        if c=='y' or c=='Y':
                             break
                         else:
                             continue
@@ -74,7 +73,7 @@ while True:
                         w = 2
                     elif options == 3:
                         c=input("Are you want to go menu again y/n :- ")
-                        if c=='y':
+                        if c=='y' or c=='Y':
                             break
                         else:
                             continue
@@ -99,7 +98,7 @@ while True:
                         w = 2
                     elif options == 3:
                         c=input("Are you want to go menu again y/n :- ")
-                        if c=='y':
+                        if c=='y' or c=='Y':
                             break
                         else:
                             continue
@@ -108,11 +107,11 @@ while True:
                     print(rs[0],rs[1])
             elif slection == 4:
                 c=input("Are you want to go menu again y/n :- ")
-                if c=='y':
+                if c=='y' or c=='Y':
                     break
     elif option == 4:
         c=input("Are you want to go menu again y/n :- ")
-        if c=='y':
+        if c=='y' or c=='Y':
             break
 
 
